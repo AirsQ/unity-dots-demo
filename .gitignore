@@ -1,0 +1,55 @@
+# ============================================
+# Unity 6.0 Project .gitignore
+# 官方模板参考: https://github.com/github/gitignore/blob/main/Unity.gitignore
+# ============================================
+
+# --- Unity 自动生成文件夹 ---
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+
+# --- IDE 与解决方案文件 ---
+.vs/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# --- Unity 生成的元文件 (仅忽略 Library 中的) ---
+!/[Aa]ssets/**/*.meta
+
+# --- 系统与临时文件 ---
+*.tmp
+*~
+*.bak
+*.log
+.DS_Store
+Thumbs.db
+
+# --- 构建产物 ---
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# --- 其他 ---
+crashlytics-build.properties
+sysinfo.txt
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/
