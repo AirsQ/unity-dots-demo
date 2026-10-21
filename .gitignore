@@ -29,6 +29,7 @@
 *.mdb
 *.opendb
 *.VC.db
+.idea/
 
 # --- Unity 生成的元文件 (仅忽略 Library 中的) ---
 !/[Aa]ssets/**/*.meta
